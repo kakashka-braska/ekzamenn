@@ -1,0 +1,456 @@
+@font-face {
+    font-family: 'BeVietnamPro';
+    src: url(../font/BeVietnamPro-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'BeVietnamPro';
+    src: url(../font/BeVietnamPro-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'BeVietnamPro';
+    src: url(../font/BeVietnamPro-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'BeVietnamPro';
+    src: url(../font/BeVietnamPro-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../font/Outfit-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    src: url(../font/Outfit-Light.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(../font/Outfit-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(../font/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.important{
+    padding: 2%;
+    background-image: url(../img/IMAGE.png);
+    text-align: center;
+}
+.important>p{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    color: white;
+    font-size: 0.9vw;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 10%;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    color: black;
+    font-size: 0.7vw;
+
+}
+.menu>li:last-child{
+    margin-left: 60%;
+    width: 8%;
+}
+
+.menu>li:last-child>a{
+    border: 1px solid #b7b6c0;
+    padding: 6% 10%;
+} 
+
+.headerInfo{
+    text-align: center;
+    margin: 10% 10% 0 10%;
+}
+.headerInfo>img{
+    width: 100%;
+}
+.p1{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 0.7vw;
+}
+.p2{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 0.8vw;
+    width: 40%;
+    display: inline-block;
+}
+h1{
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 3.5vw;
+    margin: 1% 0;
+    display: inline-block;
+}
+@font-face {
+    font-family: 'BeVietnamPro';
+    src: url(../font/BeVietnamPro-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Outfit';
+    src: url(../font/Outfit-Regular.ttf);
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all{
+    margin: 5% 10%;
+}
+.allText>h2{
+    font-family: Outfit;
+    font-size: 3vw;
+    width: 45%;
+    font-weight: 300;
+}
+.allText>p{
+    font-family: BeVietnamPro;
+    font-size: 1vw;
+    width: 35%;
+    line-height: 4vh;
+}
+.allText{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.all>hr{
+    border: 1px solid rgb(212, 210, 210);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.allText>hr{
+    border: 1px solid rgb(170, 170, 170);
+}
+.card{
+    width: 25%;
+    padding: 20px;
+    border: 1px solid rgb(170, 170, 170);
+    text-align: center;
+
+}
+.card>h3{
+    font-family: Outfit;
+    font-size: 1.5vw;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.card>p{
+    font-family: BeVietnamPro;
+    font-size: 1.2vw;
+}
+.allCards{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 2%;
+}
+.lann{
+    text-align: center;
+    margin: 10% 10% 0 10%;
+}
+.p3{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+.h25{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 2vw;
+    width: 40%;
+    display: inline-block;
+}
+.p4{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+.h26{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 2vw;
+    width: 40%;
+    display: inline-block;
+}
+.iiil{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 7%;
+    gap: 5vh;
+}
+.iiil>img{
+    width: 40%;
+}
+.kkrr{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 7%;
+    gap: 5vh;
+}
+.kkrr>img{
+    width: 40%;
+}
+.p5{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+.h27{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 2vw;
+    width: 40%;
+    display: inline-block;
+}  
+
+.p6{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+
+.h28{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 2vw;
+    width: 40%;
+    display: inline-block;
+} 
+
+
+.p7{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+
+.h29{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 2vw;
+    width: 40%;
+    display: inline-block;
+} 
+
+
+.p8{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+
+.h210{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 2vw;
+    width: 40%;
+    display: inline-block;
+   
+} 
+
+.p9{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+.h211{
+    font-family: BeVietnamPro;
+    font-weight: 400;
+    font-size: 2vw;
+    width: 40%;
+    display: inline-block;
+}
+.lkk,.nnt,.cra,.iioi,.yuu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 7%;
+    gap: 5vh;
+}
+.lkk>img{
+    width: 40%;
+}
+
+footer{
+    background-color: #2A514C;
+    padding: 5% 10%;
+}
+
+.footerlinks>a{
+    border: 1px solid #EBFA9E;
+    padding: 5%;
+    
+}
+
+.footerInfo>p{
+    font-family: BeVietnamPro;
+    font-size: 0.8vw;
+    color: white;
+    
+}
+
+.footerInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerlinks{
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerInfo2>p{
+    color: white;
+    font-family: BeVietnamPro;
+    font-size: 0.8vw;
+    margin-top: 2%;
+    margin: 9%;
+}
+.footerInfo2>p:first-child{
+    font-size: 0.9vw;
+    color: #EBFA9E;
+}
+
+.footerOld{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerInfo2{
+    width: 20%;
+  
+}
+
+.last>p{
+    color: white;
+    font-size: 0.8vw;
+    font-family: BeVietnamPro;
+    margin-top: 4%;
+}
+
+
+.last b{
+    color: #BFE03E;
+}
+
+@media(max-width:768px) {
+    .menu a{
+        font-size: 1.5vw;
+    }
+    .menu>li:last-child{
+        margin-left: 30%;
+        width: 18%;
+    }
+    .allText>p,.p1,.p2,.allText>p,.card>p,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.footerInfo>p,.footerInfo2>p,.footerInfo2>p:first-child,.last>p,.important>p{
+        font-size: 2vw;
+    }
+    .p2{
+        width: 100%;
+    }
+    .allText>p{
+        line-height: 2vh;
+    }
+    .card{
+        width: 30%;
+    }
+    .iiil>img{
+        width: 100%;
+    }
+    .kkrr>img{
+        width: 100%;
+    }
+    .lkk>img{
+        width: 100%;
+    }
+    .footerlinks{
+        width: 20%;
+    }
+}
+
+@media(max-width:425px){
+    .allText>p,.p1,.p2,.allText>p,.card>p,.p3,.p4,.p5,.p6,.p7,.p8,.p9,.footerInfo>p,.footerInfo2>p,.footerInfo2>p:first-child,.last>p,.important>p{
+        font-size: 3vw;
+    }
+    .menu a{
+        font-size: 2.5vw;
+    }
+    .menu{
+        flex-wrap: wrap;
+    }
+    .menu>li{
+        width: 100%;
+    }
+    .menu>li:last-child {
+        margin-left: 0;
+        width: 33%;
+        margin-top: 2%;
+    }
+    h1{
+        font-size: 5vw;
+    }
+    h2{
+        font-size: 4vw !important;
+    }
+    .allText{
+        flex-wrap: wrap;
+    }
+    .allText>h2,.allText>p{
+        width: 100%;
+    }
+    .allCards{
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 10%;
+    }
+    h3{
+        font-size: 3.5vw !important;
+    }
+
+    .nnt,.iioi,.yuu,.cra{
+        width: 100%;
+    }
+    .nnt>img,.iioi>img,.yuu>img,.cra>img{
+        width: 100%;
+    }
+    .footerOld{
+        flex-wrap: wrap;
+    }
+    .footerInfo2{
+        width: 49%;
+    }
+    .footerlinks{
+        width: 40%;
+    }
+}
